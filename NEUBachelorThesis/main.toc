@@ -1,0 +1,13 @@
+\contentsline {chapter}{摘要}{iii}{chapter*.1}
+\contentsline {chapter}{ABSTRACT}{v}{chapter*.2}
+\contentsline {chapter}{\numberline {1\hspace {.3em}}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}课题背景}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}研究现状}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2\hspace {.3em}}尾砂胶结充填体力学特性研究}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}尾砂胶结充填体的物理力学性能及胶凝机理}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}尾砂胶结充填体的物理力学性能}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}尾砂胶结充填体的胶凝机理}{3}{subsection.2.1.2}
+\contentsline {chapter}{结论}{5}{chapter*.4}
+\contentsline {chapter}{参考文献}{6}{chapter*.4}
+\contentsline {chapter}{附录}{9}{chapter*.6}
+\contentsline {chapter}{致\ \ 谢}{11}{chapter*.8}
