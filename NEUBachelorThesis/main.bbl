@@ -7,4 +7,12 @@ S.~Zhang, S.~Zhang, T.~Huang, W.~Gao, and Q.~Tian.
 \newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
   PP(99):1--1, 2017.
 
+\bibitem{10.1007/978-3-662-44848-9_34}
+Caglar Gulcehre, Kyunghyun Cho, Razvan Pascanu, and Yoshua Bengio.
+\newblock Learned-norm pooling for deep feedforward and recurrent neural
+  networks.
+\newblock In Toon Calders, Floriana Esposito, Eyke Hullermeier, and Rosa Meo,
+  editors, {\em Machine Learning and Knowledge Discovery in Databases}, pages
+  530--546, Berlin, Heidelberg, 2014. Springer Berlin Heidelberg.
+
 \end{thebibliography}

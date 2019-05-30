@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.1)  22 APR 2019 20:49
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.1)  30 MAY 2019 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,7 +1179,7 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 9.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1211,16 +1211,16 @@ LaTeX Info: Redefining \rmfamily on input line 8.
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 > 23.0pt.
-l.14 \showthe\baselineskip
+l.15 \showthe\baselineskip
                           
 
 *************************************************
 * ctex warning: "deprecated-command"
 * 
 * Command \CTEXsetup is deprecated.
-* \ctexset { chapter = {  name={}, number={\arabic {chapter}},format+={\heiti
-* \zihao {-2}},aftername={\quad }, beforeskip={0.8ex}, afterskip={0.5ex}  } }
-* is set.
+* \ctexset { chapter = {  name={第,章}, number={\chinese
+* {chapter}},format+={\heiti \zihao {-2}},aftername={\quad },
+* beforeskip={0.8ex}, afterskip={0.5ex}  } } is set.
 *************************************************
 *************************************************
 * ctex warning: "deprecated-command"
@@ -1228,7 +1228,7 @@ l.14 \showthe\baselineskip
 * Command \CTEXsetup is deprecated.
 * \ctexset { section = {  format={\Large \bfseries }, nameformat+={\heiti
 * \zihao {4}}, aftername={\ }, titleformat={\heiti \zihao {4}},
-* beforeskip={0.8ex}, afterskip={0.5ex}  } } is set.
+* beforeskip={0.5ex}, afterskip={0.5ex}  } } is set.
 *************************************************
 *************************************************
 * ctex warning: "deprecated-command"
@@ -1236,7 +1236,7 @@ l.14 \showthe\baselineskip
 * Command \CTEXsetup is deprecated.
 * \ctexset { subsection = {  format={\Large \bfseries }, nameformat+={\heiti
 * \zihao {-4}}, aftername={\ }, titleformat={\heiti \zihao {-4}},
-* beforeskip={0.8ex}, afterskip={0.5ex}  } } is set.
+* beforeskip={0.5ex}, afterskip={0.5ex}  } } is set.
 *************************************************
 (d:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -2121,32 +2121,34 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count357
 \l__xeCJK_listings_flag_int=\count358
 ) (./main.aux
-(./data/titlepage.aux) (./data/abstract.aux) (./data/chap01.aux)
-(./data/chap02.aux) (./data/chap07.aux) (./data/appendix.aux) (./data/ack.aux))
+(./data/abstract.aux) (./data/chap01.aux) (./data/chap02.aux)
+(./data/chap03.aux) (./data/chap04.aux) (./data/chap05.aux) (./data/chap06.aux)
+(./data/chap07.aux) (./data/appendix.aux) (./data/ack.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 2.
+LaTeX Info: Redefining \selectfont on input line 8.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -2154,63 +2156,63 @@ LaTeX Info: Redefining \selectfont on input line 2.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 2.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 2.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 2.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 2.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 2.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 2.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 2.
-LaTeX Font Info:    Redeclaring math accent \check on input line 2.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 2.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 2.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 2.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 2.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
+LaTeX Font Info:    Redeclaring math accent \check on input line 8.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 2.
+(Font)              `operators' in the math version `normal' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 8
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 2.
+(Font)              `operators' in the math version `bold' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-2.
+8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 2.
+input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 2.
+ 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 2.
+ 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 2.
+(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/pcr/m/n on input line 2.
+(Font)                  OT1/cmtt/m/n --> TU/pcr/m/n on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 2.
+ input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 2.
+ne 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/phv/bx/n on input line 2.
+(Font)                  OT1/cmss/bx/n --> TU/phv/bx/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/pcr/bx/n on input line 2.
+(Font)                  OT1/cmtt/m/n --> TU/pcr/bx/n on input line 8.
 \AtBeginShipoutBox=\box96
 
 (d:/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -2231,15 +2233,15 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * hratio: 2:3
 * modes: twoside 
-* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
-* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* h-part:(L,W,R)=(85.35826pt, 441.01773pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=416.83289pt
-* \textheight=700.5069pt
-* \oddsidemargin=18.0675pt
-* \evensidemargin=18.0675pt
-* \topmargin=-39.83385pt
+* \textwidth=441.01773pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-40.97194pt
 * \headheight=19.91692pt
 * \headsep=19.91692pt
 * \topskip=12.0pt
@@ -2259,7 +2261,7 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count359
-Package hyperref Info: Link coloring ON on input line 2.
+Package hyperref Info: Link coloring ON on input line 8.
 
 (d:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2269,17 +2271,51 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 2.
-LaTeX Info: Redefining \pageref on input line 2.
-LaTeX Info: Redefining \nameref on input line 2.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\openout2 = `data/titlepage.aux'.
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf>
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf>
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf, page 1>
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf, page 1>
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf, page 1>
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf, page 1>
+File: data/titlePage1.pdf Graphic file (type pdf)
+<use data/titlePage1.pdf, page 1>
+ [1
 
- (./data/titlepage.tex
+
+
+]
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf>
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf>
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf, page 1>
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf, page 1>
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf, page 1>
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf, page 1>
+File: data/Academic.pdf Graphic file (type pdf)
+<use data/Academic.pdf, page 1>
+ [2]
+\openout2 = `data/abstract.aux'.
+
+ (./data/abstract.tex
 \g__fontspec_family_SimHei_int=\count361
 .................................................
 . fontspec info: "no-font-shape"
@@ -2308,71 +2344,18 @@ LaTeX Info: Redefining \nameref on input line 2.
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 
-Underfull \hbox (badness 7851) detected at line 15
-\TU/SimSun(1)/m/n/15.05624 学 院 名 称：| 
- []
 
-
-Underfull \hbox (badness 7851) detected at line 15
-\TU/SimSun(1)/m/n/15.05624 专 业 名 称：| 
- []
-
-
-Underfull \hbox (badness 7851) detected at line 15
-\TU/SimSun(1)/m/n/15.05624 学 生 姓 名：| 
- []
-
-
-Underfull \hbox (badness 7851) detected at line 15
-\TU/SimSun(1)/m/n/15.05624 指 导 老 师：| 
- []
-
-
-Overfull \hbox (1.0013pt too wide) detected at line 15
-\TU/SimSun(1)/m/n/18.06749 二 \TU/TimesNewRoman(0)/m/n/18.06749 O \TU/SimSun(1)/
-m/n/18.06749 一 九 年 六 月
- []
+LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 1.
 
 [1
 
 
 
-
-]) [2
-
-]
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf>
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf>
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf, page 1>
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf, page 1>
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf, page 1>
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf, page 1>
-File: data/aca.pdf Graphic file (type pdf)
-<use data/aca.pdf, page 1>
- [3
-
-]
-\openout2 = `data/abstract.aux'.
-
- (./data/abstract.tex [2
+] [2
 
 
-
-]
-
-LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
-(Font)              using `TU/SimHei(0)/m/n' instead on input line 1.
-
-[3] [4
-
-
-]) [5] [6
+]) [3] [4
 
 
 
@@ -2386,91 +2369,161 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [5])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [7] [8
-
-
-]
+\g__fontspec_family_KaiTi_int=\count362
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'KaiTi(0)' created for font 'KaiTi' with options [Script={CJK}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"KaiTi/OT:script=hani;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+ [6]
 \openout2 = `data/chap01.aux'.
 
 
 (./data/chap01.tex
-1
+第一章
+File: myfigures/slam-01.png Graphic file (type bmp)
+<myfigures/slam-01.png>
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 27.
 ) [1
 
 
 
-]
+
+
+] [2]
 \openout2 = `data/chap02.aux'.
 
- (./data/chap02.tex [2
+ (./data/chap02.tex
+第二章
+File: myfigures/slam-01.png Graphic file (type bmp)
+<myfigures/slam-01.png>
+) [3
 
 
 
 
 ]
-2
-File: myfigures/slam-01.png Graphic file (type bmp)
-<myfigures/slam-01.png>
-) [3] [4
+\openout2 = `data/chap03.aux'.
+
+ (./data/chap03.tex [4
+
+
+
+
+]
+第三章
+) [5]
+\openout2 = `data/chap04.aux'.
+
+ (./data/chap04.tex [6
+
+
+
+
+]
+第四章
+) [7]
+\openout2 = `data/chap05.aux'.
+
+ (./data/chap05.tex [8
+
+
+
+
+]
+第五章
+) [9]
+\openout2 = `data/chap06.aux'.
+
+ (./data/chap06.tex [10
+
+
+
+
+]
+第六章
+) [11] [12
 
 
 
 ]
 \openout2 = `data/chap07.aux'.
 
- (./data/chap07.tex) [5
+ (./data/chap07.tex) [13
 
 
 
-] (./main.bbl [6
+] (./main.bbl [14
 
 
 
-]) [7]
+]) [15]
 \openout2 = `data/appendix.aux'.
 
- (./data/appendix.tex
-[8
+
+(./data/appendix.tex [16
 
 
 
-]) [9]
+]) [17]
 \openout2 = `data/ack.aux'.
 
- (./data/ack.tex [10
+ (./data/ack.tex [18
 
 
 
 
-] [11]) [12
+] [19]) [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
- (./main.aux (./data/titlepage.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+ (./main.aux
 (./data/abstract.aux) (./data/chap01.aux) (./data/chap02.aux)
+(./data/chap03.aux) (./data/chap04.aux) (./data/chap05.aux) (./data/chap06.aux)
 (./data/chap07.aux) (./data/appendix.aux) (./data/ack.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8B48CE8B20DA141A0FD18681E419D0D.
+(rerunfilecheck)             Checksum: B6C6B3EC9CABA0BCBF2E5AB956C49404.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 39879 strings out of 492970
- 820903 string characters out of 6137299
- 966650 words of memory out of 5000000
- 43198 multiletter control sequences out of 15000+600000
- 535687 words of font info for 80 fonts, out of 8000000 for 9000
+ 39976 strings out of 492970
+ 823759 string characters out of 6137299
+ 973752 words of memory out of 5000000
+ 43273 multiletter control sequences out of 15000+600000
+ 535655 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,18n,70p,10460b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,77p,10444b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (22 pages).
+Output written on main.pdf (28 pages).

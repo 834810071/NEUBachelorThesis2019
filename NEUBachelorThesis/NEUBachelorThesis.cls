@@ -2,6 +2,7 @@
 \LoadClass[UTF8,cs4size,a4paper]{ctexbook}%默认twoside,openright
 \RequirePackage{pdfpages}%插入pdf文档
 
+
 %--------字体设置-------%
 \RequirePackage{times}
 \setmainfont{Times New Roman}%西文字体
@@ -15,8 +16,8 @@
 
 %--------章节设置-------%
 \CTEXsetup[
-name={},
-number={\arabic{chapter}},%章节编号设置为阿拉伯数字格式
+name={第,章},
+number={\chinese{chapter}},%章节编号设置为阿拉伯数字格式 \arabic
 format+={\heiti\zihao{-2}},%{\centering\zihao{-3}\heiti},  % 各章标题
 % nameformat={},
 aftername={\quad},
@@ -30,7 +31,7 @@ format={\Large\bfseries},
 nameformat+={\heiti\zihao{4}},
 aftername={\ },
 titleformat={\heiti\zihao{4}},
-beforeskip={0.8ex},
+beforeskip={0.5ex},
 afterskip={0.5ex}
 ]{section}%二级标题左对齐
 
@@ -39,7 +40,7 @@ format={\Large\bfseries},
 nameformat+={\heiti\zihao{-4}},
 aftername={\ },
 titleformat={\heiti\zihao{-4}},
-beforeskip={0.8ex},
+beforeskip={0.5ex},
 afterskip={0.5ex}
 ]{subsection}%二级标题左对齐
 
@@ -103,7 +104,12 @@ afterskip={0.5ex}
 
 %----------扉页---------%
 \def\maketitlepage{
+	\thispagestyle{empty}
 	%中文扉页
+	\begin{flushleft}
+		{\heiti\zihao{5}{学号\,\underline{20152021}\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad 
+				\, 班级\,\underline{物联网1501}}}
+	\end{flushleft}
 	\zihao{2}
 	\vspace*{2cm}
 	\centerline{\rmfamily\zihao{1}\bfseries{东北大学本科毕业论文}}\vspace{2cm}		%（1号宋体居中）
@@ -155,10 +161,14 @@ afterskip={0.5ex}
 %----------页面设置----------%
 \RequirePackage{geometry} % 调整页面式样
 \geometry{
-	left=31.75mm,
-	right=31.75mm,
-	top=25.4mm,
-	bottom=25.4mm,
+	%left=31.75mm,
+	%right=31.75mm,
+	%top=25.4mm,
+	%bottom=25.4mm,
+	left=30.00mm,
+	right=25.00mm,
+	top=25.00mm,
+	bottom=25.00mm,
 	headheight=7mm,
 	headsep=7mm,
 	% textheight=253mm,
@@ -171,6 +181,7 @@ afterskip={0.5ex}
 \renewcommand{\headrulewidth}{0.4pt}%页眉线宽
 \renewcommand{\footrulewidth}{0pt}%页脚线宽
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+%\renewcommand{\chaptermark}[1]{\markboth{\chaptername \#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
 
 % 默认页面页眉页脚样式
@@ -184,6 +195,7 @@ afterskip={0.5ex}
 	
 	% 居中式页眉，可以选择为论文题目或当前章
 	%\fancyhead[C]{\zihao{-5}\leftmark}
+	
 }
 \pagestyle{plain}
 
@@ -192,25 +204,27 @@ afterskip={0.5ex}
 
 % 用法：一定是在章节的标题下面(不能在标题上面）\thispagestyle{task}(也不能是\pagesyle命令)
 \fancypagestyle{aca}{
-	% \pagenumbering{Roman}
+	%\pagenumbering{Roman}
 	\fancyhead[L]{\zihao{5}东北大学本科毕业设计（论文）}
 	\fancyhead[R]{\zihao{5}郑重声明}
 }
 \fancypagestyle{task}{
-	% \pagenumbering{Roman}
+	%\pagenumbering{Roman}
 	\fancyhead[L]{\zihao{5}东北大学本科毕业设计（论文）}
 	\fancyhead[R]{\zihao{5}毕业设计（论文）任务书}
 }
 \fancypagestyle{contents}{
-	% \pagenumbering{Roman}
+	%\pagenumbering{Roman}
 	\fancyhead[L]{\zihao{5}东北大学本科毕业设计（论文）}
 	\fancyhead[R]{\kaishu\zihao{5} \leftmark}
 }
 \fancypagestyle{cabstract}{
+	%\pagenumbering{Roman}
 	\fancyhead[L]{\zihao{5}东北大学本科毕业设计（论文）}
 	\fancyhead[R]{\zihao{5}摘要}
 }
 \fancypagestyle{eabstract}{
+	%\pagenumbering{Roman}
 	\fancyhead[L]{\zihao{5}东北大学本科毕业设计（论文）}
 	\fancyhead[R]{\zihao{5}ABSTRACT}
 }
@@ -225,7 +239,7 @@ afterskip={0.5ex}
 
 %------------摘要-----------%
 \newenvironment{cabstract}{
-	\setcounter{page}{2}
+	\setcounter{page}{1}
 	\setcounter{secnumdepth}{-1}
 	\chapter*{\renewcommand{\baselinestretch}{1.5}\normalsize
 		{\heiti\zihao{-2}摘要}}				% 黑体 小二
@@ -248,6 +262,7 @@ afterskip={0.5ex}
 	\chapter*{\renewcommand{\baselinestretch}{1.5}\normalsize
 		{\zihao{-2}ABSTRACT}}
 	\addcontentsline{toc}{chapter}{ABSTRACT}
+	\zihao{-4}	
 	\thispagestyle{eabstract}
 	
 }%开始部分定义
@@ -293,7 +308,7 @@ afterskip={0.5ex}
 % \renewcommand{\cftsubsecfont}{\zihao{-4}\songti}
 %学校要求
 \renewcommand{\cftchapfont}{\heiti\zihao{-2}}
-\renewcommand{\cftsecfont}{\songti\zihao{-4}}
+\renewcommand{\cftsecfont}{\songti\zihao{4}}
 \renewcommand{\cftsubsecfont}{\songti\zihao{-4}}
 %目录项缩进
 \setlength{\cftchapindent}{0em}
@@ -382,6 +397,7 @@ afterskip={0.5ex}
 \usepackage[noend]{algpseudocode}
 %------------算法------------%
 \RequirePackage{algorithmicx,algorithm}%算法排版
+
 \RequirePackage{amsfonts}
 \lstset{language=Mathematica}%这条命令可以让LaTeX排版时将Mathematica键字突出显示
 \lstset{extendedchars=false}%这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题

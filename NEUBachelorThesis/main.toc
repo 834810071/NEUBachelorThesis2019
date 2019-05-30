@@ -1,13 +1,29 @@
-\contentsline {chapter}{摘要}{iii}{chapter*.1}
-\contentsline {chapter}{ABSTRACT}{v}{chapter*.2}
-\contentsline {chapter}{\numberline {1\hspace {.3em}}绪论}{1}{chapter.1}
+\contentsline {chapter}{摘要}{i}{chapter*.1}
+\contentsline {chapter}{ABSTRACT}{iii}{chapter*.2}
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}课题背景}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}研究现状}{1}{section.1.2}
-\contentsline {chapter}{\numberline {2\hspace {.3em}}尾砂胶结充填体力学特性研究}{3}{chapter.2}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}尾砂胶结充填体力学特性研究}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}尾砂胶结充填体的物理力学性能及胶凝机理}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}尾砂胶结充填体的物理力学性能}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}尾砂胶结充填体的胶凝机理}{3}{subsection.2.1.2}
-\contentsline {chapter}{结论}{5}{chapter*.4}
-\contentsline {chapter}{参考文献}{6}{chapter*.4}
-\contentsline {chapter}{附录}{9}{chapter*.6}
-\contentsline {chapter}{致\ \ 谢}{11}{chapter*.8}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}一级标题}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}二级标题}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}三级标题}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}三级标题}{5}{subsection.3.1.2}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}一级标题}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}二级标题}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}三级标题}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}三级标题}{7}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}一级标题}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}二级标题}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}三级标题}{9}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}三级标题}{9}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}一级标题}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}二级标题}{11}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}三级标题}{11}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}三级标题}{11}{subsection.6.1.2}
+\contentsline {chapter}{结论}{13}{chapter*.4}
+\contentsline {chapter}{参考文献}{14}{chapter*.4}
+\contentsline {chapter}{附录}{17}{chapter*.6}
+\contentsline {chapter}{致\ \ 谢}{19}{chapter*.8}
