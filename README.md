@@ -10,3 +10,4 @@ LaTeX的下载安装及简易使用  https://blog.csdn.net/muzhicihe/article/det
 免费论文查重 https://www.paperyy.com/     
 错别字检查 https://wucuozi.cn/     
 
+插图、表格、算法、悬挂缩进具体使用在第一章中有具体示例。  
