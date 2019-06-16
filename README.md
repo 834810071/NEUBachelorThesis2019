@@ -9,5 +9,6 @@ Latex数学公式在线编辑 https://zh.numberempire.com/latexequationeditor.ph
 LaTeX的下载安装及简易使用  https://blog.csdn.net/muzhicihe/article/details/80326090      
 免费论文查重 https://www.paperyy.com/     
 错别字检查 https://wucuozi.cn/     
+latex学习博客 https://liam.page/2014/09/08/latex-introduction/     
 
 插图、表格、算法、悬挂缩进具体使用在第一章中有具体示例。  
